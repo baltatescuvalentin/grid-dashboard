@@ -1,0 +1,66 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+}
+
+#dashboard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 12px;
+}
+
+
+#dashboard h1{
+    margin-left: 8px;
+    color: white;
+}
+
+.navbar_elem h2 {
+    color: white;
+}
+
+.navbar_elem {
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-self: center;
+    align-self: center;
+    gap: 4px;
+}
+
+.navbar_elem > .icon_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_icon {
+    height: 36px;
+    width: 36px;
+}
+
+.sidebar {
+    background-color: rgb(76, 152, 203);
+}
+
+#settings::before {
+    content: "";
+}
